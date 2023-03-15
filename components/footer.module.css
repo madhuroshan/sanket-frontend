@@ -1,0 +1,28 @@
+.container {
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+  padding: 1.5rem;
+  /* background: linear-gradient(to bottom, transparent, black 85%); */
+  background-color: black;
+}
+
+.container ul {
+  display: flex;
+  gap: 1.5rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.container ul li img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .container ul li img {
+    width: 2rem;
+    height: 2rem;
+  }
+}

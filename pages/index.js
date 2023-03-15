@@ -1,14 +1,13 @@
-// import { Inter } from "next/font/google";
-
 import Navbar from "../components/Navbar";
-// import "../styles/globalscss";
-// const inter = Inter({ subsets: ["latin"] });
+import Footer from "../components/Footer";
+import Intro from "../components/Intro";
 
 export default function Home() {
   return (
     <>
-      {/* <div>Sanket'23</div> */}
       <Navbar />
+      <Intro />
+      <Footer />
     </>
   );
 }

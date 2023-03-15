@@ -1,0 +1,75 @@
+.container h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+  /* background-clip: linear-gradient(to right, red, green blue); */
+  font-size: 72px;
+  background: linear-gradient(rgb(87, 191, 151), rgb(5, 61, 107));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.event-card-lecture,
+.event-card-comp,
+.event-card-workshop {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid orange;
+  width: fit-content;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.event-card-lecture {
+  border: 3px solid green;
+}
+
+.event-card-comp {
+  border: 3px solid darkcyan;
+}
+
+.event-type-lecture,
+.event-type-workshop,
+.event-type-comp {
+  padding: 1rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: orange;
+  /* margin-bottom: 1rem; */
+}
+
+.event-type-lecture {
+  background-color: green;
+}
+
+.event-type-comp {
+  background-color: darkcyan;
+}
+
+.event-card-lecture:hover,
+.event-card-comp:hover,
+.event-card-workshop:hover {
+  transform: translateY(-10px);
+}
+
+.events-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container h1 {
+    font-size: 4rem;
+  }
+}

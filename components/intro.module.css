@@ -1,0 +1,52 @@
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.5rem;
+}
+
+.intro-page h1 {
+  font-size: 7rem;
+  font-weight: 900;
+  font-family: "Sweet Sans Pro", sans-serif;
+}
+
+.intro-page p {
+  font-size: 1.35rem;
+  font-weight: 300;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: rgb(151, 151, 151);
+}
+
+.brochure {
+  background-color: burlywood;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 500px;
+  color: black;
+  transition: all 500ms ease;
+}
+
+.brochure:hover {
+  background-color: rgb(236, 156, 50);
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 620px) {
+  .intro-page h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro-page h1 {
+    font-size: 4rem;
+  }
+
+  .intro-page p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,24 @@
+.margin {
+	max-width: 1336px;
+	margin: 0 auto;
+	padding: 0 48px;
+	width: 100%;
+}
+
+@media (max-width: 1279px) {
+	.margin {
+		padding: 0 2rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.margin {
+		padding: 0 2rem;
+	}
+}
+
+@media (max-width: 639px) {
+	.margin {
+		padding: 0 18px;
+	}
+}

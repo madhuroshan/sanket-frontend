@@ -16,21 +16,21 @@ export default function Footer() {
         <li className={styles["footer-link"]}>
           <Link href="#">
             <a>
-              <img src="/facebookc.svg" />
+              <img src="/twitterc.svg" />
             </a>
           </Link>
         </li>
         <li className={styles["footer-link"]}>
           <Link href="#">
             <a>
-              <img src="/facebookc.svg" />
+              <img src="/instagramc.svg" />
             </a>
           </Link>
         </li>
         <li className={styles["footer-link"]}>
           <Link href="#">
             <a>
-              <img src="/facebookc.svg" />
+              <img src="/phone.svg" />
             </a>
           </Link>
         </li>

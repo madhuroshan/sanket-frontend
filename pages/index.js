@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <Intro />
+      <div style={{ height: "7.5rem" }}></div>
       <Footer />
     </>
   );

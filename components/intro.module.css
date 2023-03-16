@@ -10,6 +10,7 @@
   font-size: 7rem;
   font-weight: 900;
   font-family: "Sweet Sans Pro", sans-serif;
+  text-shadow: 0px 0px 20px rgb(143, 143, 143);
 }
 
 .intro-page p {
@@ -32,6 +33,7 @@
 
 .brochure:hover {
   background-color: rgb(236, 156, 50);
+  box-shadow: 0 0 5px rgb(254, 199, 97);
   transform: translateY(-5px);
 }
 

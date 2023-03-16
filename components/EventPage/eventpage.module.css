@@ -7,7 +7,6 @@
   margin-bottom: 2rem;
   padding-bottom: 5px;
   border-bottom: 1px solid gray;
-  /* background-clip: linear-gradient(to right, red, green blue); */
   font-size: 72px;
   background: linear-gradient(rgb(87, 191, 151), rgb(5, 61, 107));
   background-clip: text;
@@ -24,14 +23,17 @@
   border-radius: 1rem;
   overflow: hidden;
   transition: all 300ms ease;
+  box-shadow: 1px 1px 10px orange;
 }
 
 .event-card-lecture {
   border: 3px solid green;
+  box-shadow: 1px 1px 10px green;
 }
 
 .event-card-comp {
   border: 3px solid darkcyan;
+  box-shadow: 1px 1px 10px darkcyan;
 }
 
 .event-type-lecture,
@@ -63,7 +65,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   width: fit-content;
   margin: auto;
 }

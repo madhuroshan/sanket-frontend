@@ -9,7 +9,9 @@ export default function Home() {
       <Head>
         <title>Sanket'23</title>
       </Head>
+
       <Navbar />
+      <div style={{ height: "7.5rem" }}></div>
       <Intro />
       <div style={{ height: "7.5rem" }}></div>
       <Footer />

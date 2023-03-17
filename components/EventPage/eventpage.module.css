@@ -11,6 +11,7 @@
   background: linear-gradient(rgb(87, 191, 151), rgb(5, 61, 107));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 7px rgb(65, 205, 205);
 }
 
 .event-card-lecture,
@@ -40,7 +41,10 @@
 .event-type-workshop,
 .event-type-comp {
   padding: 1rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.1em;
   text-align: center;
   background-color: orange;
   /* margin-bottom: 1rem; */
@@ -58,6 +62,7 @@
 .event-card-comp:hover,
 .event-card-workshop:hover {
   transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .events-wrapper {

@@ -1,0 +1,60 @@
+.container {
+  width: fit-content;
+  margin: auto;
+}
+
+.event {
+  margin: 0 2rem;
+  max-width: 600px;
+  /* margin: auto; */
+  background-color: rgba(210, 208, 208, 0.185);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  border: 2px solid darkcyan;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px darkcyan;
+}
+
+.event-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkcyan;
+  padding: 0.5rem;
+}
+
+.event-title {
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.event-count {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background-color: rgb(236, 143, 13);
+  box-shadow: 0 0 10px rgb(36, 107, 107);
+  padding: 0.75rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.event-description-wrapper {
+  padding: 1rem 0.5rem;
+}
+
+.event-description {
+  font-size: 14px;
+}
+
+.register-btn {
+  padding: 0.5rem 1rem;
+  background-color: darkcyan;
+  border-radius: 500px;
+  margin-top: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+}

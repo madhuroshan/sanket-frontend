@@ -58,4 +58,10 @@
   margin-top: 1rem;
   font-family: "Space Grotesk", sans-serif;
   font-size: 15px;
+  transition: all 300ms ease;
+}
+
+.register-btn:hover {
+  transform: translateY(-3px);
+  background-color: rgba(0, 139, 139, 0.605);
 }

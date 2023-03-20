@@ -1,11 +1,11 @@
 .container {
   position: fixed;
   bottom: 0;
-
+  /* margin-top: auto; */
   width: 100%;
-  padding: 1.5rem;
-  /* background: linear-gradient(to bottom, transparent, black 85%); */
-  background-color: black;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.523);
+  backdrop-filter: blur(4px);
 }
 
 .container ul {
@@ -16,13 +16,13 @@
 }
 
 .container ul li img {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 @media screen and (max-width: 400px) {
   .container ul li img {
-    width: 2rem;
-    height: 2rem;
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }

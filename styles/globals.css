@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 * {
-  font-family: "Sweet Sans Pro", sans-serif;
+  font-family: "ClashDisplay-Variable", sans-serif;
+  /* font-family: "Sweet Sans Pro", sans-serif; */
   color: var(--text-color);
   scroll-behavior: smooth;
   scroll-padding-top: 120px;
 }
+
+p {
+  font-family: "Sweet Sans Pro", sans-serif;
+}
+
 .margin {
   max-width: 1240px;
   margin: 0 auto;

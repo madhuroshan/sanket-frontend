@@ -6,6 +6,7 @@ import "styles/form.css";
 
 import "assets/fonts/space-grotesk/space-grotesk.css";
 import "assets/fonts/sweet-sans-pro/sweet-sans-pro.css";
+import "assets/fonts/clash-display/clash-display.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

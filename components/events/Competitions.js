@@ -6,7 +6,8 @@ export default function Competitions() {
   return (
     <>
       <div className={styles["container"]}>
-        <h1 className={styles["heading"]}>COMPETITIONS</h1>
+        <h1 className={styles["heading"]}>Competitions</h1>
+        <div className={styles["underline"]}></div>
         <div className={styles["events"]}>
           <EventCard
             eventName="Quiz and Circuit Making"

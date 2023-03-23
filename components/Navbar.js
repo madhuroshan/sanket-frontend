@@ -82,28 +82,28 @@ export default function Navbar() {
         </button>
         <ul className={styles["navbar-mobile-view"]}>
           <li className={styles["navbar-link"]}>
-            <Link href="#">
+            <Link href="/">
               <a>home</a>
             </Link>
           </li>
           <li className={styles["navbar-link"]}>
-            <Link href="#">
+            <Link href="/about">
               <a>about</a>
             </Link>
           </li>
           <li className={styles["navbar-link"]}>
-            <Link href="#">
+            <Link href="/events">
               <a>events</a>
             </Link>
           </li>
           <li className={styles["navbar-link"]}>
-            <Link href="#">
+            <Link href="/team">
               <a>team</a>
             </Link>
           </li>
 
           <li className={styles["navbar-link"]}>
-            <Link href="#">
+            <Link href="/partners">
               <a>partners</a>
             </Link>
           </li>

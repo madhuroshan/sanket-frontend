@@ -6,7 +6,8 @@ export default function EventPage() {
   return (
     <>
       <div className={styles["container"]}>
-        <h1 className> EVENTS</h1>
+        <h1> Events</h1>
+        <div className={styles["underline"]}></div>
         <div className={styles["events-wrapper"]}>
           <Link href="/events/workshops">
             <div className={styles["event-card-workshop"]}>

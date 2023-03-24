@@ -12,10 +12,16 @@
 
 .logo {
   position: fixed;
-  top: 0;
+  top: -0.5rem;
   left: 1rem;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+}
+
+.logo-two {
+  position: fixed;
+  top: -2rem;
+  right: -3rem;
+  width: 150px;
 }
 
 .container,
@@ -60,9 +66,10 @@
   z-index: 9999;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 810px) {
   .menu-button {
     display: block;
+    margin: 1rem;
   }
   .mobile-view {
     display: block;

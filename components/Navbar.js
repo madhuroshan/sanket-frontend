@@ -12,9 +12,10 @@ export default function Navbar() {
       <div className={styles["container"]}>
         <div className={styles["logo"]}>
           <Link href="/">
-            <img src="/logo2-nobg.png" />
+            <img src="/logo-text.png" />
           </Link>
         </div>
+
         <ul className={styles["navbar"]}>
           <li
             className={
@@ -74,6 +75,11 @@ export default function Navbar() {
         className={styles["mobile-view"]}
         style={{ left: toggle ? "0%" : "-100%" }}
       >
+        <div className={styles["logo-two"]}>
+          <Link href="/">
+            <img src="/logo-nobg.png" />
+          </Link>
+        </div>
         <button
           className={styles["menu-button"]}
           onClick={() => setToggle(!toggle)}

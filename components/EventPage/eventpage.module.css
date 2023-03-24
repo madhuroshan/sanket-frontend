@@ -87,9 +87,3 @@
   width: fit-content;
   margin: auto;
 }
-
-@media screen and (max-width: 500px) {
-  .container h1 {
-    font-size: 4rem;
-  }
-}

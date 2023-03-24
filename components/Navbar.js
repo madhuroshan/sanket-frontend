@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className={styles["container"]}>
         <div className={styles["logo"]}>
           <Link href="/">
-            <img src="/logo-text.png" />
+            <img src="/logo-new.jpeg" />
           </Link>
         </div>
 
@@ -77,11 +77,11 @@ export default function Navbar() {
       >
         <div className={styles["logo-two"]}>
           <Link href="/">
-            <img src="/logo-nobg.png" />
+            <img src="/logo-new.jpeg" />
           </Link>
         </div>
         <button
-          className={styles["menu-button"]}
+          className={styles["close-button"]}
           onClick={() => setToggle(!toggle)}
         >
           <img src="/close.png" />

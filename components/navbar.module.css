@@ -7,21 +7,21 @@
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.531);
   backdrop-filter: blur(8px);
-  animation: slideFromTop 300ms ease top;
 }
 
 .logo {
   position: fixed;
-  top: -0.5rem;
+  top: -0rem;
   left: 1rem;
-  width: 200px;
+  width: 175px;
 }
 
 .logo-two {
   position: fixed;
-  top: -2rem;
-  right: -3rem;
-  width: 150px;
+  top: 1rem;
+  right: 1rem;
+  width: 175px;
+  z-index: -1;
 }
 
 .container,
@@ -69,7 +69,6 @@
 @media screen and (max-width: 810px) {
   .menu-button {
     display: block;
-    margin: 1rem;
   }
   .mobile-view {
     display: block;
@@ -79,11 +78,9 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    width: fit-content;
     margin: auto;
     align-items: center;
     width: 100%;
-    margin-top: 3rem;
   }
 
   .mobile-view ul li {
@@ -98,21 +95,15 @@
   }
 }
 
+.menu-button {
+  margin: 1rem;
+}
+
 .menu-button,
 .close-button {
   padding: 1rem;
 }
 
-@keyframes slideFromTop {
-  0% {
-    transform: scale(0, 1);
-  }
-
-  50% {
-    transform: scale(0.5, 1);
-  }
-
-  100% {
-    transform: scale(1, 1);
-  }
+.close-button {
+  margin-bottom: 2rem;
 }

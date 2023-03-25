@@ -9,28 +9,22 @@ export default function EventPage() {
         <h1> Events</h1>
         <div className={styles["underline"]}></div>
         <div className={styles["events-wrapper"]}>
-          <Link href="/events/workshops">
-            <div className={styles["event-card-workshop"]}>
-              <div className={styles["event-image"]}>
-                <img src="/workshop.png" />
-              </div>
-              <div className={styles["event-type-workshop"]}>WORKSHOPS</div>
+          <Link href="/events/competitions">
+            <div className={styles["event-card"]}>
+              <img src="/gears.png" className={styles["image"]} />
+              <p>competitions</p>
             </div>
           </Link>
-          <Link href="/events/competitions">
-            <div className={styles["event-card-comp"]}>
-              <div className={styles["event-image"]}>
-                <img src="/workshop.png" />
-              </div>
-              <div className={styles["event-type-comp"]}>COMPETITIONS</div>
+          <Link href="/events/workshops">
+            <div className={styles["event-card"]}>
+              <img src="/gears.png" className={styles["image"]} />
+              <p>workshops</p>
             </div>
           </Link>
           <Link href="/events/lectures">
-            <div className={styles["event-card-lecture"]}>
-              <div className={styles["event-image"]}>
-                <img src="/workshop.png" />
-              </div>
-              <div className={styles["event-type-lecture"]}>LECTURES</div>
+            <div className={styles["event-card"]}>
+              <img src="/gears.png" className={styles["image"]} />
+              <p>lectures</p>
             </div>
           </Link>
         </div>

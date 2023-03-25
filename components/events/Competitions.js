@@ -14,6 +14,7 @@ export default function Competitions() {
             eventCount="1"
             eventDesc="Get ready to spark your creativity and unleash your electronics wizardry with our electrifying competition! With a quiz round to test your knowledge and a hardware section to showcase your skills... Get yourself prepared to design and demonstrate your circuit, impress the judges, and win amazing prizes..."
             left="left"
+            link="/events/competitions/electronova"
           />
 
           <EventCard
@@ -21,6 +22,7 @@ export default function Competitions() {
             eventCount="2"
             eventDesc="Get ready to spark your creativity and unleash your electronics wizardry with our electrifying competition! With a quiz round to test your knowledge and a hardware section to showcase your skills... Get yourself prepared to design and demonstrate your circuit, impress the judges, and win amazing prizes..."
             left="right"
+            link="/events/competitions/scavenger"
           />
 
           <EventCard
@@ -29,6 +31,15 @@ export default function Competitions() {
             eventDesc="Welcome to the ultimate Auction and buzzer  Competition!
         Are you ready to put your skills to the test and compete against some of the best designers and create innovative and functional designs to win exciting prizes"
             left="left"
+            link="/events/competitions/auction"
+          />
+          <EventCard
+            eventName="Codecon"
+            eventCount="3"
+            eventDesc="Welcome to the ultimate Auction and buzzer  Competition!
+        Are you ready to put your skills to the test and compete against some of the best designers and create innovative and functional designs to win exciting prizes"
+            left="right"
+            link="/events/competitions/electronova"
           />
         </div>
       </div>

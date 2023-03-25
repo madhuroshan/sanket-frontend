@@ -38,7 +38,7 @@
 }
 
 .event-card {
-  padding: 1rem;
+  padding: 1.2rem;
   background-color: gainsboro;
   overflow: hidden;
   display: flex;
@@ -53,10 +53,10 @@
 }
 
 .event-card .image {
-  transform: rotate(-20deg) scale(1.25) translateY(-50px) translateX(-50px);
+  transform: scale(1.2);
 }
 .event-card:hover .image {
-  transform: rotate(-20deg) scale(1.45) translateY(-30px) translateX(-30px);
+  transform: scale(1.5);
   cursor: pointer;
 }
 
@@ -73,6 +73,7 @@
   padding: 1rem;
   font-size: 20px;
   font-weight: 500;
+  margin-top: 1rem;
   background-color: rgb(149, 149, 149);
   transition: all 300ms ease;
   clip-path: polygon(90% 0%, 100% 20%, 100% 100%, 0 100%, 0 0);

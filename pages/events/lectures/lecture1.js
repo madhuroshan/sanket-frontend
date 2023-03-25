@@ -1,18 +1,12 @@
-import React from "react";
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
-import Head from "next/head";
-import AboutUs from "components/AboutUs";
+import React from "react";
 
-export default function about() {
+export default function workshops() {
   return (
     <>
-      <Head>
-        <title>About Us : Sanket'23</title>
-      </Head>
       <Navbar />
       <div style={{ height: "7.5rem" }}></div>
-      <AboutUs />
       <div style={{ height: "7.5rem" }}></div>
       <Footer />
     </>

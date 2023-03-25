@@ -1,0 +1,61 @@
+.container {
+  max-width: 750px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  font-family: "ClashDisplay-Variable", sans-serif;
+  font-weight: 500;
+}
+
+.light-text {
+  font-family: "ClashDisplay-ExtraLight";
+  font-size: 3.5rem;
+}
+
+.about-ecea h1,
+.about-sanket h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: gainsboro;
+  color: black;
+  width: fit-content;
+  padding: 0.25rem 0.75rem;
+  font-weight: 500;
+  clip-path: polygon(90% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+}
+
+.about-sanket h1 {
+  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0 100%, 0% 30%);
+  padding: 0.25rem 1rem;
+  font-size: 1.75rem;
+}
+
+.about-sanket h1 span {
+  font-weight: 300;
+  color: black;
+  font-size: 2rem;
+}
+
+.about-sanket {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.underline {
+  height: 2px;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+.description {
+  padding: 1.5rem;
+}
+
+.desc-wrapper {
+  width: 100%;
+}

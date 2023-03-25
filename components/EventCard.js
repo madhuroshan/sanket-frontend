@@ -1,7 +1,14 @@
 import React from "react";
 import styles from "../components/event-card.module.css";
+import Link from "next/link";
 
-export default function EventCard({ eventName, eventCount, eventDesc, left }) {
+export default function EventCard({
+  eventName,
+  eventCount,
+  eventDesc,
+  left,
+  link,
+}) {
   return (
     <>
       <div className={styles["container"]}>
@@ -13,7 +20,9 @@ export default function EventCard({ eventName, eventCount, eventDesc, left }) {
           <div className={styles["seperation"]}></div>
           <div className={styles["event-description-wrapper"]}>
             <p className={styles["event-description"]}>{eventDesc}</p>
-            <button className={styles["register-btn"]}>Register</button>
+            <Link href={link}>
+              <div className={styles["register-btn"]}>Register</div>
+            </Link>
           </div>
         </div>
       </div>

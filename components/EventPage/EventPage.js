@@ -11,7 +11,7 @@ export default function EventPage() {
         <div className={styles["events-wrapper"]}>
           <Link href="/events/competitions">
             <div className={styles["event-card"]}>
-              <img src="/gears.png" className={styles["image"]} />
+              <img src="/events.png" className={styles["image"]} />
               <p>competitions</p>
             </div>
           </Link>
@@ -23,7 +23,7 @@ export default function EventPage() {
           </Link>
           <Link href="/events/lectures">
             <div className={styles["event-card"]}>
-              <img src="/gears.png" className={styles["image"]} />
+              <img src="/lectures.png" className={styles["image"]} />
               <p>lectures</p>
             </div>
           </Link>

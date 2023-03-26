@@ -8,6 +8,19 @@ export default function Intro() {
         <p className={styles["ecea-tag"]}>ECE Association Presents</p>
         <h1 className={styles["sanket-tag"]}>Sanket'23</h1>
         <button className={styles["brochure"]}>Explore</button>
+        <div className={styles["date"]}>
+          <p>
+            <span className={styles["date"]}>
+              1<sup>st</sup>
+              &nbsp;
+            </span>
+            April - &nbsp;
+            <span className={styles["date"]}>
+              2<sup>nd</sup>
+            </span>
+            &nbsp; April
+          </p>
+        </div>
       </div>
     </>
   );

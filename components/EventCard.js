@@ -8,6 +8,8 @@ export default function EventCard({
   eventDesc,
   left,
   link,
+  date,
+  speaker,
 }) {
   return (
     <>
@@ -19,6 +21,9 @@ export default function EventCard({
           </div>
           <div className={styles["seperation"]}></div>
           <div className={styles["event-description-wrapper"]}>
+            <p className={styles["event-details"]}>{date}</p>
+            <p className={styles["event-details"]}>{speaker}</p>
+            <br />
             <p className={styles["event-description"]}>{eventDesc}</p>
             <Link href={link}>
               <div className={styles["register-btn"]}>Register</div>

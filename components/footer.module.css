@@ -1,7 +1,6 @@
 .container {
   position: fixed;
   bottom: 0;
-  /* margin-top: auto; */
   width: 100%;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.523);
@@ -18,6 +17,36 @@
 .container ul li img {
   height: 2rem;
   width: 2rem;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.433);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.contact {
+  width: 600px;
+  padding: 1.25rem;
+  height: 300px;
+  background-color: gainsboro;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 1rem;
+}
+
+.close-btn {
+  color: black;
+  width: fit-content;
+  margin-left: auto;
+  background-color: gray;
+  padding: 0 0.5rem;
 }
 
 @media screen and (max-width: 400px) {

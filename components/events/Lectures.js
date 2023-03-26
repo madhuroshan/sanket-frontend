@@ -10,11 +10,13 @@ export default function Lectures() {
         <div className={styles["underline"]}></div>
         <div className={styles["events"]}>
           <EventCard
-            eventName="Quiz and Circuit Making"
+            eventName="Embedded Systems"
             eventCount="1"
             eventDesc="Get ready to spark your creativity and unleash your electronics wizardry with our electrifying competition! With a quiz round to test your knowledge and a hardware section to showcase your skills... Get yourself prepared to design and demonstrate your circuit, impress the judges, and win amazing prizes..."
             left="left"
             link="/events/lectures/lecture1"
+            date="Time &nbsp;: &nbsp; Day  1 &nbsp;, &nbsp; Morning Session"
+            speaker=" Speaker &nbsp; : &nbsp; Dr.&nbsp; Lyla &nbsp;B.&nbsp; Das"
           />
 
           <EventCard

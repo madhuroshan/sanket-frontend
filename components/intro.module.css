@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 7.5rem;
+  margin-top: 5rem;
 }
 
 .intro-page h1 {
@@ -35,6 +35,20 @@
   background-color: rgb(236, 156, 50);
   box-shadow: 0 0 5px rgb(254, 199, 97);
   transform: translateY(-5px);
+}
+
+.date p {
+  color: gainsboro;
+  font-family: "ClashDisplay-Variable", sans-serif;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  font-size: 1.75rem;
+}
+
+.date p span,
+.date p span sup {
+  color: orange;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 620px) {

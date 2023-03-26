@@ -1,0 +1,40 @@
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.container h1 {
+  font-family: "ClashDisplay-Variable", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  background-color: gainsboro;
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+}
+
+.underline {
+  height: 2px;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+.container .guidelines ul {
+  list-style: inside;
+  padding: 1rem;
+}
+
+.register-btn {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  background-color: gainsboro;
+  color: #000;
+  border-radius: 500px;
+  transition: ease all 300ms;
+}
+
+.register-btn:hover {
+  background-color: rgba(189, 189, 189, 0.927);
+  transform: translateY(-2px);
+  cursor: pointer;
+}

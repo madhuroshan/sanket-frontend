@@ -54,6 +54,12 @@
   border-radius: 0 0 8px 8px;
 }
 
+.event-details {
+  font-size: 16px;
+  font-family: "ClashDisplay-Variable", sans-serif;
+  font-weight: 500;
+}
+
 .event-description {
   font-size: 14px;
 }

@@ -9,6 +9,7 @@ export default function events() {
     <>
       <Head>
         <title>Sanket'23 : Events</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
       <div style={{ height: "7.5rem" }}></div>

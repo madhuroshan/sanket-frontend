@@ -9,6 +9,7 @@ export default function about() {
     <>
       <Head>
         <title>About Us : Sanket'23</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
       <div style={{ height: "7.5rem" }}></div>

@@ -37,7 +37,11 @@ export default function Codecon() {
             </li>
 
             <li>
-              <Link className={styles["pdf"]} href="">
+              <Link
+                className={styles["pdf"]}
+                href="/codecon.pdf
+              "
+              >
                 For Complete guidelines, Click here
               </Link>
             </li>

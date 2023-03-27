@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Sanket'23</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navbar />

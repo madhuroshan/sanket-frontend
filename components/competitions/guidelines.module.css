@@ -26,7 +26,6 @@
 .register-btn {
   width: fit-content;
   padding: 0.5rem 1rem;
-  margin: auto;
   background-color: gainsboro;
   color: #000;
   border-radius: 500px;
@@ -37,4 +36,20 @@
   background-color: rgba(189, 189, 189, 0.927);
   transform: translateY(-2px);
   cursor: pointer;
+}
+
+.reg-links {
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .reg-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
 }

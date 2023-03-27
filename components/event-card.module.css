@@ -81,8 +81,20 @@
   background-color: rgb(159, 159, 159);
 }
 
+.reg-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 @media screen and (max-width: 600px) {
   .event-count {
     display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .reg-links {
+    gap: 0;
   }
 }

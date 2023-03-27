@@ -7,7 +7,8 @@ export default function EventCard({
   eventCount,
   eventDesc,
   left,
-  link,
+  linknit,
+  linknonnit,
   date,
   speaker,
 }) {
@@ -25,9 +26,18 @@ export default function EventCard({
             <p className={styles["event-details"]}>{speaker}</p>
             <br />
             <p className={styles["event-description"]}>{eventDesc}</p>
-            <Link href={link}>
-              <div className={styles["register-btn"]}>Register</div>
-            </Link>
+            <div className={styles["reg-links"]}>
+              <Link href={linknit}>
+                <div className={styles["register-btn"]}>
+                  Register (NIT Students)
+                </div>
+              </Link>
+              <Link href={linknonnit}>
+                <div className={styles["register-btn"]}>
+                  Register (Non - NIT Students)
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

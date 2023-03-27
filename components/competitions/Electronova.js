@@ -51,8 +51,14 @@ export default function Electronova() {
             </li>
           </ul>
         </div>
-        <div className={styles["register-btn"]}>
-          <Link href="">Register</Link>
+        <div className={styles["reg-links"]}>
+          <div className={styles["register-btn"]}>
+            <Link href="">Register (NIT Students)</Link>
+          </div>
+          <br />
+          <div className={styles["register-btn"]}>
+            <Link href="">Register (Non - NIT Students)</Link>
+          </div>
         </div>
       </div>
     </>

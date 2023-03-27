@@ -61,7 +61,7 @@ export default function Footer() {
           <li className={styles["footer-link"]}>
             <Link href="https://www.linkedin.com/company/ecea-nitc/">
               <a>
-                <img src="/facebookc.svg" />
+                <img src="/linkedin.png" />
               </a>
             </Link>
           </li>

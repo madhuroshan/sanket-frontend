@@ -98,3 +98,9 @@
     gap: 0;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .event-title {
+    width: 100%;
+  }
+}

@@ -40,11 +40,21 @@ export default function Scavenger() {
         </div>
         <div className={styles["reg-links"]}>
           <div className={styles["register-btn"]}>
-            <Link href="">Register (NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1xASDG3FjlSl-tBpL2QbA3OIpzI7sa4A1mNl_dO7jyLc/"
+              passHref
+            >
+              <a target="_blank"> Register (NIT Students)</a>
+            </Link>
           </div>
           <br />
           <div className={styles["register-btn"]}>
-            <Link href="">Register (Non - NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1XAlvY_05oyVlhQk1ureVeINUoe8a8KM91yfbXQTgf5I/"
+              passHref
+            >
+              <a target="_blank"> Register (Non - NIT Students)</a>
+            </Link>
           </div>
         </div>
       </div>

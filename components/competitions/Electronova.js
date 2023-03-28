@@ -53,11 +53,21 @@ export default function Electronova() {
         </div>
         <div className={styles["reg-links"]}>
           <div className={styles["register-btn"]}>
-            <Link href="">Register (NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1n8eFtp9ZVd57fJSyWKUUC54Xy_sIuqH6NcitmnPwV5k/"
+              passHref
+            >
+              <a target="_blank"> Register (NIT Students)</a>
+            </Link>
           </div>
           <br />
           <div className={styles["register-btn"]}>
-            <Link href="">Register (Non - NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1D56BYVoli3vdS0sNUHEDzO99iPG0jFLRLGhBnbt7Cis/"
+              passHref
+            >
+              <a target="_blank"> Register (Non - NIT Students)</a>
+            </Link>
           </div>
         </div>
       </div>

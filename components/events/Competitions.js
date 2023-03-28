@@ -28,7 +28,7 @@ export default function Competitions() {
           />
 
           <EventCard
-            eventName="Auction and buzzer"
+            eventName="Under the Gavel"
             eventCount="3"
             eventDesc="Welcome to the ultimate Auction and buzzer  Competition!
         Are you ready to put your skills to the test and compete against some of the best designers and create innovative and functional designs to win exciting prizes"
@@ -37,7 +37,7 @@ export default function Competitions() {
             linknonnit="/events/competitions/auction"
           />
           <EventCard
-            eventName="Codecon"
+            eventName="Codeathon"
             eventCount="4"
             eventDesc="What's Up Falks,
             From programming challenges to debugging , there's something for everyone here,

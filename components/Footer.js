@@ -21,7 +21,15 @@ export default function Footer() {
           </button>
 
           <ul>
-            <li>Praveena - </li>
+            <li>
+              <strong>Secretary: &nbsp; </strong> Praveena - 96529 24569{" "}
+            </li>
+            <li>
+              <strong>Asst. Secretary: &nbsp; </strong> Suvishal - 83742 45391{" "}
+            </li>
+            <li>
+              <strong>Joint Secretary: &nbsp; </strong> Gayatri - 90747 99432{" "}
+            </li>
           </ul>
         </div>
       </div>

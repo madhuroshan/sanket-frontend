@@ -6,7 +6,7 @@ export default function Auction() {
   return (
     <>
       <div className={styles["container"]}>
-        <h1 className={styles["head"]}>Auction & Buzzer</h1>
+        <h1 className={styles["head"]}>Under the Gavel</h1>
         <div className={styles["underline"]}></div>
         <br />
 
@@ -49,11 +49,21 @@ export default function Auction() {
         </div>
         <div className={styles["reg-links"]}>
           <div className={styles["register-btn"]}>
-            <Link href="">Register (NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1xQZu7CQEc7ens5nS40Za16StiCUI52_8yTYCCJmg4Zk/"
+              passHref
+            >
+              <a target="_blank"> Register (NIT Students)</a>
+            </Link>{" "}
           </div>
           <br />
           <div className={styles["register-btn"]}>
-            <Link href="">Register (Non - NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1MyiI2_HMyqz9zwmiaOjlcDyVu_URhJvydRdbI8ke-ow/edit"
+              passHref
+            >
+              <a target="_blank"> Register (Non -NIT Students)</a>
+            </Link>
           </div>
         </div>
       </div>

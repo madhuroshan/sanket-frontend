@@ -8,7 +8,7 @@ export default function codecon() {
   return (
     <>
       <Head>
-        <title>Codecon</title>
+        <title>Codeathon</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />

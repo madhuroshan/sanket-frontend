@@ -6,7 +6,7 @@ export default function Codecon() {
   return (
     <>
       <div className={styles["container"]}>
-        <h1 className={styles["head"]}>Codecon</h1>
+        <h1 className={styles["head"]}>Codeathon</h1>
         <div className={styles["underline"]}></div>
         <br />
 
@@ -49,11 +49,21 @@ export default function Codecon() {
         </div>
         <div className={styles["reg-links"]}>
           <div className={styles["register-btn"]}>
-            <Link href="">Register (NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1Udos8k6AURuHQ9J6tiFVLVyFtEb2CV_LBuov0dSPoEo/"
+              passHref
+            >
+              <a target="_blank"> Register (NIT Students)</a>
+            </Link>
           </div>
           <br />
           <div className={styles["register-btn"]}>
-            <Link href="">Register (Non - NIT Students)</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1qCnZJ3Vwbn6DYeMcKSo3WvAa6B3cgVqCxXvknqsla_o/"
+              passHref
+            >
+              <a target="_blank"> Register (Non - NIT Students)</a>
+            </Link>
           </div>
         </div>
       </div>

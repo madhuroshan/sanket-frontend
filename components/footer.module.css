@@ -50,6 +50,19 @@
   padding: 0 0.5rem;
 }
 
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.contact ul li,
+.contact ul li strong {
+  color: black;
+}
+
 @media screen and (max-width: 400px) {
   .container ul li img {
     width: 1.75rem;

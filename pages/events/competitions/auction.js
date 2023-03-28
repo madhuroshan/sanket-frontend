@@ -8,7 +8,7 @@ export default function auction() {
   return (
     <>
       <Head>
-        <title>Auction & Buzzer</title>
+        <title>Under the Gavel</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />

@@ -10,7 +10,7 @@ export default function Competitions() {
         <div className={styles["underline"]}></div>
         <div className={styles["events"]}>
           <EventCard
-            eventName="Electronova"
+            eventName="Electrified"
             eventCount="1"
             eventDesc="Get ready to spark your creativity and unleash your electronics wizardry with our electrifying competition! With a quiz round to test your knowledge and a hardware section to showcase your skills... Get yourself prepared to design and demonstrate your circuit, impress the judges, and win amazing prizes..."
             left="left"
@@ -21,8 +21,8 @@ export default function Competitions() {
           <EventCard
             eventName="Scavenger Hunt"
             eventCount="2"
-            eventDesc="Get ready to spark your creativity and unleash your electronics wizardry with our electrifying competition! With a quiz round to test your knowledge and a hardware section to showcase your skills... Get yourself prepared to design and demonstrate your circuit, impress the judges, and win amazing prizes..."
             left="right"
+            eventDesc="Sanket’23 presents Scavenger Hunt to race against time and unravel the trail of clues.From the logical questions to the other quirky pieces of puzzling questions,cracking the clues hidden all over the campus.This is the ultimate scavenger hunt to make your very own circuit"
             linknit="/events/competitions/scavengerhunt"
             linknonnit="/events/competitions/scavengerhunt"
           />

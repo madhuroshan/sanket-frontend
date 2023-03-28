@@ -22,7 +22,8 @@ export default function Workshops() {
           <EventCard
             eventName="Deep GAN Dive Workshop"
             eventCount="2"
-            eventDesc="Get ready to spark your creativity and unleash your electronics wizardry with our electrifying competition! With a quiz round to test your knowledge and a hardware section to showcase your skills... Get yourself prepared to design and demonstrate your circuit, impress the judges, and win amazing prizes..."
+            eventDesc="We are thrilled to announce an upcoming workshop, 'Deep GAN Dive,' as part of the esteemed technical event, Sanket'23. This comprehensive workshop will be hosted by the distinguished Artificial Intelligence Club of NIT Calicut and will focus on various aspects of Artificial Intelligence, with a particular emphasis on Generative Adversarial Networks (GANs).
+            Mark your calendars for April 2nd, as the workshop will be divided into two informative sessions, scheduled from 9AM-12PM and 2-5PM. Participants will receive a comprehensive understanding of AI fundamentals, neural networks, and CNNs, followed by an engaging hands-on session on Python and Pytorch. Furthermore, the workshop will introduce participants to GANs and provide hands-on experience with vanilla GANs. The session will conclude with an in-depth discussion on the advancements in GANs and beyond vanilla GANs."
             left="right"
             linknit="https://docs.google.com/forms/d/1H_VsqzREcYRghY4Yw0aPBsrt8sov_-lIc8G0P3E1bOk/"
             linknonnit="https://docs.google.com/forms/d/1IOXCsycok09XG2HsAA5JQ4RDv-cP2Om2RKxy_Fc6fE4/"

@@ -23,12 +23,12 @@ export default function Lectures() {
           <EventCard
             eventName="AI and Business Analytics"
             eventCount="2"
-            eventDesc="Mr. Sebastian, a highly regarded professor from the Indian Institute of Management (IIM) Kozhikode, will deliver an enlightening talk on the topic of business analytics and AI on April 2nd. Using his extensive experience and knowledge in the field, Mr. Sebastian will provide an overview of the ways in which AI and analytics will transform today’s business practices."
+            eventDesc="Dr. Sebastian, a highly regarded professor from the Indian Institute of Management (IIM) Kozhikode, will deliver an enlightening talk on the topic of business analytics and AI on April 2nd. Using his extensive experience and knowledge in the field, Mr. Sebastian will provide an overview of the ways in which AI and analytics will transform today’s business practices."
             left="right"
             linknit="https://docs.google.com/forms/d/1iGsUevascduFoizfw3I8Op7GBtPN7lhyVGa9iUi3Z-E/"
             linknonnit="https://docs.google.com/forms/d/1MHG17rBH81k8z6Gr5daCrDhV5MsfU5hMZzuF0kwlciY/"
             date="Time &nbsp;: &nbsp; April 2nd &nbsp;, &nbsp; 10am - 11am"
-            speaker=" Speaker &nbsp; : &nbsp; Mr.&nbsp; Sebastian &nbsp;&nbsp; "
+            speaker=" Speaker &nbsp; : &nbsp; Dr.&nbsp; Sebastian &nbsp;&nbsp; "
           />
           <EventCard
             eventName="Privacy Preserving Machine Learning "

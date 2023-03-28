@@ -6,7 +6,7 @@ export default function Electronova() {
   return (
     <>
       <div className={styles["container"]}>
-        <h1 className={styles["head"]}>Electronova</h1>
+        <h1 className={styles["head"]}>Electrified</h1>
         <div className={styles["underline"]}></div>
         <br />
 
